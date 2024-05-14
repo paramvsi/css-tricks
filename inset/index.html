@@ -3,22 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS :empty Example</title>
+    <title>CSS inset Example</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <div class="box filled">
-        <p>This box is not empty.</p>
+      <div class="box">
+        This box is absolutely positioned using the inset property.
       </div>
-      <div class="box empty"></div>
-
-      <p>
-        The :empty CSS pseudo-class selects elements that have no children. This
-        includes both text nodes and elements. It's particularly useful for
-        applying styles to empty containers, such as highlighting empty fields
-        or showing placeholder text.
-      </p>
     </div>
+
+    <p>
+      The inset CSS property is a shorthand for setting the top, right, bottom,
+      and left properties in a single declaration. It is used for positioning an
+      element relative to its containing block. It is particularly useful for
+      absolutely positioned elements.
+    </p>
   </body>
 </html>

@@ -1,29 +1,27 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f0f0f0;
 }
 
 .container {
-  display: flex;
-  gap: 20px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #007bff;
 }
 
 .box {
-  width: 150px;
-  height: 150px;
-  border: 2px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-}
-
-.box:empty {
+  position: absolute;
+  inset: 20px 30px 40px 50px; /* top | right | bottom | left */
   background-color: lightcoral;
-  border: 2px dashed #000;
-}
-
-.filled {
-  background-color: lightgreen;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
 }
