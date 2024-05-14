@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.border-image-box {
+  padding: 20px;
+  font-size: 18px;
+  border: 10px solid transparent; /* Fallback border */
+  border-image-source: url("https://via.placeholder.com/200x20"); /* Image source */
+  border-image-slice: 30; /* How to slice the image */
+  border-image-width: 10px; /* Width of the border */
+  border-image-outset: 0; /* Amount by which the border image area extends beyond the border box */
+  border-image-repeat: stretch; /* How to repeat the image */
+}

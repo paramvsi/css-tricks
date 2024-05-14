@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://via.placeholder.com/800x600");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(10px) saturate(150%); /* Apply blur and saturate */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}

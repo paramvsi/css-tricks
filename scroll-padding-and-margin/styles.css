@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 20px;
+  border: 2px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.scroll-item {
+  min-width: 200px;
+  min-height: 150px;
+  background-color: lightcoral;
+  margin: 10px;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  border-radius: 8px;
+}
+
+.scroll-container-2 {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  border: 2px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.scroll-item-2 {
+  min-width: 200px;
+  min-height: 150px;
+  background-color: lightcoral;
+  margin: 10px;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  border-radius: 8px;
+}
+
+.scroll-item-margin {
+  scroll-margin: 40px; /* Adding extra margin for scroll snapping */
+}
